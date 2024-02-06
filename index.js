@@ -3,10 +3,7 @@ const submit = document.querySelector(".submit");
 const text = document.querySelector(".text");
 const Pdf_button  =document.querySelector("#Pdf_button")
 
-// Pdf_button.addEventListener("click",()=>{
-//     const pdf_Content = document.querySelector("#pdfInput")
-//     console.log(pdf_Content.value)
-// })
+
 
 
 let Stringyfied_Text = text.innerText;
