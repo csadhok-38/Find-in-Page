@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    align-items: center;
+    background-color: rgb(255, 248, 120);
+    /* background-color: rgb(226, 156, 43); */
+    /* border: 4px solid blue; */
+    overflow: scroll;
+  }
+
+  .container {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid red; */
+    
+    margin-top: 13%;
+    
+    
+  }
+  .submit{
+    background-color:rgb(75, 72, 72);
+    width:43px;
+    height: 28px;
+    border: 2px solid rgb(252, 252, 252);
+    color:rgb(255, 255, 255);
+  }
+
+  .submit:hover{
+    color: white;
+    border: 2px solid white;
+  } 
+
+
+
+  .Article_Section{
+    /* border: 2px solid red; */
+    margin:20px;
+    padding:20px;
+    height: 100%;
+
+  } 
+  #PatternInput{
+    width: 194px;
+    height: 25px;
+  }
+/* 
+  @keyframes scrollText {
+    from {
+      transform: translate(100%, -100%);
+    }
+    to {
+      /* transform: translate(-100%, -100%);
+       */
+       /* transform: translate(-100%, -100%) rotate(360deg) scale(0.1)
+    }
+  } */ 
